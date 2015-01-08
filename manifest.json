@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "NewTabImage",
+  "description": "This extension allows you to set an image as your new tab.",
+  "version": "1.0",
+  "permissions": [
+    "management"
+  ],
+  "chrome_url_overrides" : {
+  "newtab": "newTab.html"
+}
+}
